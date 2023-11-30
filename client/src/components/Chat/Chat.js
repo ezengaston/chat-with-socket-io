@@ -20,7 +20,7 @@ export default function Chat() {
   const [users, setUsers] = useState([]);
 
   const location = useLocation();
-  const ENDPOINT = process.env.SERVER_ENDPOINT;
+  const ENDPOINT = process.env.REACT_APP_SERVER_ENDPOINT;
 
   useEffect(() => {
     const { name, room } = queryString.parse(location.search);
