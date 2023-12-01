@@ -1,3 +1,0 @@
-# used for inline heroku buildpack
-
-echo "--- {}"
